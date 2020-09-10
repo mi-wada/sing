@@ -1,0 +1,22 @@
+<header>
+    <h1><a href="/">sing</a></h1>
+    <hr>
+</header>
+
+<div id="listener">
+    <div class="flex">
+        <div>
+            <a class="link-image" @click="sendCall"><img src="images/clickToListen.png" alt="toListen"></a>
+        </div>
+    </div>
+    <div class="flex-cheer">
+        <div>
+            <a class="cheer-image" @click="cheer"><img src="images/cheer.png" alt="cheer"></a>
+        </div>
+    </div>
+    <video id="remote_audio" autoplay> </video>
+</div>
+
+<script src="/dependencies/sails.io.js"></script>
+<script src="/dependencies/vue.js"></script>
+<script src="/js/listener.js"></script>

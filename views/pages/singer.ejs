@@ -1,0 +1,18 @@
+<header>
+    <h1><a href="/">sing</a></h1>
+    <hr>
+</header>
+
+<div id="singer">
+    <div class="flex">
+        <div>
+            <a class="link-image" @click="startVideo"><img src="images/clickToSing.png" alt="toSing"></a>
+        </div>
+    </div>
+    <a class="cheer-count" v-model="cheerCount">cheerCount: {{cheerCount}}</a>
+    <video id="local_audio" autoplay> </video>
+</div>
+
+<script src="/dependencies/sails.io.js"></script>
+<script src="/dependencies/vue.js"></script>
+<script src="/js/singer.js"></script>

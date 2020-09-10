@@ -1,0 +1,11 @@
+{
+  "apps": [{
+    "name"    : "sample_app",
+    "script"  : "app.js",
+    "watch"   : ["api", "config"],
+    "env": {
+      "NODE_ENV": "development",
+      "PORT"    : 1337
+    }
+  }]
+}

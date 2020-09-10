@@ -1,0 +1,32 @@
+<header>
+    <h1><a href="/">sing</a></h1>
+    <hr>
+</header>
+<div id="registerSinger">
+    <div class="form-password">
+        <div class="infomation-form">
+            <p>name</p>
+            <input type="text" v-model="name" placeholder="Your name [required]">
+        </div>
+        <div class="infomation-form">
+            <div class="infomation-form-twitter">
+                <p>twitter</p>
+            </div>
+            <input type="text" v-model="twitterID" placeholder="twitter ID [optional]">
+        </div>
+        <div class="infomation-form">
+            <div class="infomation-form-instagram">
+                <p>instagram</p>
+            </div>
+            <input type="text" v-model="instagramID" placeholder="instagram ID [optional]">
+        </div>
+    </div>
+    <br>
+    <div class="button-send-password">
+        <button @click="registerUserInfo"> register </button>
+    </div>
+</div>
+
+<script src="/dependencies/sails.io.js"></script>
+<script src="/dependencies/vue.js"></script>
+<script src="/js/registerSinger.js"></script>
