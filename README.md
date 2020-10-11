@@ -1,4 +1,5 @@
 # sing
+![image](https://user-images.githubusercontent.com/49638956/95669947-c2842a80-0bc0-11eb-98cf-796617d08043.png)
 
 ### 概要
 platform for street musician
@@ -8,3 +9,8 @@ platform for street musician
 
 ### 作成の動機
 開発を始めた理由は2つあるが，どちらも昨今のコロナウイルス感染拡大によるものである．1つ目の理由が，人の出歩く機会が減ったことにより路上に人が居ないため路上ミュージシャンが困っていること， 2つ目が，多くの人が家で多くの時間を過ごすこととなり，偶然の出来事が減り，退屈していると考えたためである．偶然は，人の感情を大きく動かし，それは人生を豊かにすると思う．
+
+### 用いた技術
+サーバーサイドフレームワーク: sails(node.js)
+フロントサイドフレームワーク: vue.js
+etc: webRTC, docker, TypeScript
